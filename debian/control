@@ -2,7 +2,7 @@ Source: hakkitor
 Section: utils
 Priority: optional
 Maintainer: İbrahim Hakkı Ergin <ibrahimh.ergin@gmail.com>
-Build-Depends: debhelper (>= 10), dh-python, python3-all, python3-setuptools
+Build-Depends: debhelper (>= 10), dh-python, python3-all, python3-setuptools, gettext
 Standards-Version: 4.6.1
 Homepage: https://github.com/06ergin06/simple_text_editor
 

@@ -33,12 +33,12 @@ def compile_translations():
 data_files = [
     ("/usr/share/applications/", [f"{APP_ID}.desktop"]),
     (f"/usr/share/{APP_NAME}/src", [
-        "src/Main.py",
+        "src/main.py",
         "src/MainWindow.py",
         "src/FileOperations.py",
     ]),
-    ("/usr/bin/", [f"{APP_NAME}"]),
-    ("/usr/share/icons/hicolor/scalable/apps/", [f"{APP_NAME}.svg"])
+    # The launcher is installed via `scripts`, so no need to duplicate under /usr/bin
+    # Icon install removed for now (icon file not present). Re-add when available.
 ] + compile_translations()
 
 setup(
