@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Hakkitor
+Comment=Simple text editor
+Exec=hakkitor
+Icon=hakkitor
+Terminal=false
+Type=Application
+StartupNotify=true
+Keywords=hakki,text, editor
