@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Hakki Text Editor
+Comment=A simple text editor built with GTK4
+Exec=hakkitor
+Icon=text-editor
+Terminal=false
+Type=Application
+Categories=Utility;TextEditor;GTK;
+Keywords=text;editor;
